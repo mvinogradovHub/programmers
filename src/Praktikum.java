@@ -17,7 +17,7 @@ public class Praktikum {
 
     public static boolean isLeapYear(int year) {
         // здесь нужно определить, является ли переданный год високосным
-        boolean yearMark = false;
+        boolean isLeapYear = false; // переменная истинна если висоскосный год
         if ((year % 4) == 0) {
             if ((year % 100) != 0) {
                 yearMark = true;
