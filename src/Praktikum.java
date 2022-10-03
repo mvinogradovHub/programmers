@@ -20,11 +20,11 @@ public class Praktikum {
         boolean isLeapYear = false; // переменная истинна если висоскосный год
         if ((year % 4) == 0) {
             if ((year % 100) != 0) {
-                yearMark = true;
+                isLeapYear = true;
             } else if ((year % 400) == 0) {
-                yearMark = true;
+                isLeapYear = true;
             }
         }
-        return yearMark;
+        return isLeapYear;
     }
 } 
